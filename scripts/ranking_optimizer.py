@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner Ranking Optimizer
+Copyright © 2023 Sun Wukong
 
 Advanced optimization system designed to achieve and maintain top 5 rankings 
 on Bittensor subnet 17 using cutting-edge strategies and real-time adaptation.

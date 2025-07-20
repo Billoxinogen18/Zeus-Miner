@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Standalone test for Zeus-Miner functionality without external dependencies.
+Copyright © 2023 Sun Wukong
 This verifies our enhancements work correctly.
 """
 

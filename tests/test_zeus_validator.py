@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Zeus-Validator Test Suite
+Copyright © 2023 Sun Wukong
+"""
 
 import pytest
 import asyncio

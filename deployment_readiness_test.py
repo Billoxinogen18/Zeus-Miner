@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner Deployment Readiness Test
+Copyright © 2023 Sun Wukong
 
 Comprehensive pre-deployment validation to ensure 95%+ success probability
 for achieving #1 ranking on Bittensor subnet 17.

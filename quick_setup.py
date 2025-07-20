@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Quick Setup Script for Zeus-Miner Deployment
+Copyright © 2023 Sun Wukong
 
 Resolves critical deployment issues to achieve 95%+ success probability.
 """

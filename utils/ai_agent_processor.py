@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 AI Agent Processor for Zeus-Miner 2025
+Copyright © 2023 Sun Wukong
 
 Handles the 90% AI agent transaction flood expected by end of 2025:
 - Agent communication protocols

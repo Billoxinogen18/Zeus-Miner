@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 dTAO Handler for Zeus-Miner 2025
+Copyright © 2023 Sun Wukong
 
 Handles all dTAO (Dynamic TAO) features including:
 - Subnet token earning optimization

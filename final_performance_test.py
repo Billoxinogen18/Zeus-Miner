@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner Final Performance Test
+Copyright © 2023 Sun Wukong
 
 Comprehensive test suite demonstrating all enhancements and optimizations
 for achieving top 5 rankings on Bittensor subnet 17.

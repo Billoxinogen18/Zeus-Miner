@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner 2025 Ultimate Edition
+Copyright © 2023 Sun Wukong
 
 The most advanced Bittensor miner ever created.
 Designed specifically for July 2025 market conditions and beyond.

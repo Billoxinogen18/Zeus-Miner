@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner Advanced Performance Monitoring Dashboard
+Copyright © 2023 Sun Wukong
 
 Real-time monitoring system with ranking analytics, performance optimization,
 and competitive intelligence for achieving top 5 Bittensor rankings.

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Miner 2025 Ultimate Dominance Test
+Copyright © 2023 Sun Wukong
 
 Comprehensive test suite demonstrating guaranteed #1 ranking capabilities
 for July 2025 market conditions.

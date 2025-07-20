@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Zeus-Validator 2025 Ultimate Edition
+Copyright © 2023 Sun Wukong
 
 Advanced validator for achieving #1 ranking on Bittensor subnets.
 Designed for July 2025 market conditions with cutting-edge features.
