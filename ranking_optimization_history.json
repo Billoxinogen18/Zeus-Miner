@@ -1,0 +1,167 @@
+[
+  {
+    "timestamp": 1753009324.6488562,
+    "strategy": {
+      "current_analysis": {
+        "position": 8,
+        "percentile": 0.16,
+        "total_miners": 50,
+        "emission_rate": 0.025,
+        "score_gap_to_top5": 0.12,
+        "trend": "improving"
+      },
+      "optimization_potential": {
+        "success_rate": {
+          "current": 0,
+          "target": 0.95,
+          "improvement_needed": 0.95,
+          "priority": "critical"
+        },
+        "response_time": {
+          "current": 2500,
+          "target": 3000,
+          "improvement_needed": 500,
+          "priority": "critical"
+        },
+        "efficiency": {
+          "current": 0,
+          "target": 0.98,
+          "improvement_needed": 0.98,
+          "priority": "critical"
+        },
+        "uptime": {
+          "current": 0.0,
+          "target": 0.995,
+          "improvement_needed": 0.995,
+          "priority": "critical"
+        },
+        "error_rate": {
+          "current": 0,
+          "target": 0.005,
+          "improvement_needed": 0.005,
+          "priority": "low"
+        },
+        "hashrate_stability": {
+          "current": 0.03,
+          "target": 0.05,
+          "improvement_needed": 0.020000000000000004,
+          "priority": "low"
+        }
+      },
+      "consensus_optimization": {
+        "commit_reveal_window": 5,
+        "consensus_weight_threshold": 0.8,
+        "validator_stake_minimum": 1000,
+        "early_detection_bonus": 0.2,
+        "alpha_low": 0.1,
+        "alpha_high": 0.8,
+        "tracking_period": 10
+      },
+      "response_optimization": {
+        "zeus_frequency": 350,
+        "cgminer_queue": 1,
+        "scan_time": 10
+      },
+      "challenge_optimization": {
+        "standard": {
+          "difficulty_target": 65535,
+          "timeout": 8.0,
+          "optimization": "balanced"
+        },
+        "high_difficulty": {
+          "difficulty_target": 255,
+          "timeout": 20.0,
+          "optimization": "maximum_performance",
+          "bonus_multiplier": 1.5
+        },
+        "time_pressure": {
+          "difficulty_target": 16777215,
+          "timeout": 6.0,
+          "optimization": "speed_focused",
+          "response_target": 3.0
+        },
+        "efficiency_test": {
+          "difficulty_target": 65535,
+          "timeout": 12.0,
+          "optimization": "efficiency_focused",
+          "error_rate_target": 0.01
+        }
+      },
+      "competition_analysis": {
+        "top_5_miners": [],
+        "average_success_rate": 0.85,
+        "average_response_time": 4500,
+        "performance_gaps": {},
+        "strategy_recommendations": [
+          "Increase success rate through hardware optimization"
+        ]
+      },
+      "early_detection": {
+        "monitoring_enabled": true,
+        "new_miner_threshold": 5,
+        "performance_threshold": 0.8,
+        "bond_aggressiveness": 0.3,
+        "tracking_period": 50
+      },
+      "priority_actions": [
+        {
+          "action": "optimize_success_rate",
+          "priority": "critical",
+          "impact": "high",
+          "timeframe": "immediate",
+          "description": "Improve success_rate from 0.000 to 0.950"
+        },
+        {
+          "action": "optimize_response_time",
+          "priority": "critical",
+          "impact": "high",
+          "timeframe": "immediate",
+          "description": "Improve response_time from 2500.000 to 3000.000"
+        },
+        {
+          "action": "optimize_efficiency",
+          "priority": "critical",
+          "impact": "high",
+          "timeframe": "immediate",
+          "description": "Improve efficiency from 0.000 to 0.980"
+        },
+        {
+          "action": "optimize_uptime",
+          "priority": "critical",
+          "impact": "high",
+          "timeframe": "immediate",
+          "description": "Improve uptime from 0.000 to 0.995"
+        },
+        {
+          "action": "optimize_response_time",
+          "priority": "high",
+          "impact": "high",
+          "timeframe": "1-2 hours",
+          "description": "Optimize Zeus ASIC frequency and cgminer settings"
+        },
+        {
+          "action": "enable_consensus_tracking",
+          "priority": "medium",
+          "impact": "medium",
+          "timeframe": "2-4 hours",
+          "description": "Implement consensus-based weight optimization"
+        }
+      ],
+      "estimated_ranking_improvement": {
+        "current_position": 8,
+        "estimated_new_position": 7,
+        "improvement_factor": 0.1,
+        "confidence": 10.0,
+        "timeframe": "6-12 hours"
+      }
+    },
+    "estimated_improvement": {
+      "current_position": 8,
+      "estimated_new_position": 7,
+      "improvement_factor": 0.1,
+      "confidence": 10.0,
+      "timeframe": "6-12 hours"
+    },
+    "actions_executed": 6
+  }
+]
