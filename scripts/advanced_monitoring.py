@@ -289,9 +289,9 @@ class AdvancedMonitor:
         gap = ranking.get('gap_to_top5', 0)
         
         # Color code based on position
-        if position <= 5:
+        if isinstance(position, (int, float)) and position <= 5:
             pos_style = "bold green"
-        elif position <= 10:
+        elif isinstance(position, (int, float)) and position <= 10:
             pos_style = "yellow"
         else:
             pos_style = "red"
