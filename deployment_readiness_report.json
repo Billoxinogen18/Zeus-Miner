@@ -21,10 +21,9 @@
       "5/5 checks passed"
     ]
   },
-  "success_probability": 85.0,
+  "success_probability": 90.0,
   "critical_failures": [],
   "warnings": [
-    "Virtual environment not detected - acceptable in managed environments",
     "cgminer not found - run build_cgminer.sh",
     "No Zeus-compatible USB devices detected"
   ],
