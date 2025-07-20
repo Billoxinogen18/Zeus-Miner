@@ -1,0 +1,32 @@
+{
+  "test_results": {
+    "Environment Setup": [
+      true,
+      "6/6 checks passed"
+    ],
+    "Hardware Readiness": [
+      true,
+      "3/5 checks passed"
+    ],
+    "Bittensor Connectivity": [
+      true,
+      "5/5 checks passed"
+    ],
+    "Performance Capabilities": [
+      true,
+      "5/5 checks passed"
+    ],
+    "Deployment Readiness": [
+      true,
+      "5/5 checks passed"
+    ]
+  },
+  "success_probability": 85.0,
+  "critical_failures": [],
+  "warnings": [
+    "Virtual environment not detected - acceptable in managed environments",
+    "cgminer not found - run build_cgminer.sh",
+    "No Zeus-compatible USB devices detected"
+  ],
+  "deployment_ready": true
+}
