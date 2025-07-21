@@ -1,0 +1,17 @@
+{
+  "wallet_name": "zeus_miner",
+  "created_at": "2025-07-21T11:33:02.264794",
+  "network": "finney",
+  "mnemonic": "afraid ankle above action ahead acquire announce aerobic address angry animal again",
+  "coldkey": {
+    "address": "5Geq2qiTSWbU1C9Khx5hg6SCzUajH4pF8mnRtsUpyseHawK8",
+    "public_key": "caf76e9a15c560be3a52821e6290c3d3464d37615391932cd3ee706e74aa31dd",
+    "private_key": "00922caa61ab74d0c5f5cbc8aa3bd7ed5e3df168c91201ec64fe35a972b3a47b"
+  },
+  "hotkey": {
+    "name": "zeus_hotkey",
+    "address": "5FnwyyoXe3hHGQ8jXJWoSU2QEyNk8wn5swcu54QyRtwqppPg",
+    "public_key": "a4ec8f554926540a38bc91ce14609b2281261ba26aa34da7bf33b350643dd454",
+    "private_key": "589d66420d7800a1591aeef09c89b9e11b26ddf560350637c57e3b0d81af4ac1"
+  }
+}
