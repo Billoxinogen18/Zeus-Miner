@@ -1,165 +1,121 @@
 {
-  "total_tests": 10,
-  "successful_tests": 7,
-  "success_rate": 0.7,
-  "avg_performance_score": 0.7415733695652174,
-  "avg_market_score": 0.8622307065217392,
-  "avg_response_time_ms": 783.3333333333334,
-  "final_ranking_potential": 1,
-  "competitiveness_level": "DOMINANT",
-  "weighted_overall_score": 0.8280296875,
-  "ready_for_number_one": false,
-  "total_test_time": 0.0004527568817138672,
-  "recommendation": "\u26a1 DEPLOY FOR TOP 3 - STRONG COMPETITIVE POSITION",
-  "feature_coverage": {
-    "trend_analysis": 1,
-    "competition_tracking": 1,
-    "price_adaptation": 1,
-    "validator_tracking": 1,
-    "stake_analysis": 1,
-    "weight_optimization": 1,
-    "performance_monitoring": 1,
-    "dynamic_optimization": 1,
-    "dynamic_difficulty": 1,
-    "multi_challenge": 1,
-    "advanced_scoring": 1,
-    "high_load": 1,
-    "competition_pressure": 1,
-    "resource_optimization": 1,
-    "dtao": 1,
-    "ai_agents": 1,
-    "market_intel": 1,
-    "quantum_ready": 1,
-    "overall_performance": 1,
-    "competitive_advantage": 1
+  "session_start": "2025-07-21T11:38:34.233903",
+  "total_challenges": 124,
+  "successful_hashes": 124,
+  "failed_attempts": 0,
+  "current_hashrate": 0.4832126427693957,
+  "average_response_time": 0.005897910594940186,
+  "success_rate": 100.0,
+  "current_ranking": "#1",
+  "total_earnings": 0.0,
+  "last_successful_hash": {
+    "timestamp": "2025-07-21T11:42:50.849653",
+    "nonce": 3185,
+    "response_time_ms": 1.102447509765625
   },
-  "test_results": [
+  "performance_trend": "\ud83d\ude80 DOMINATING",
+  "mining_status": "ACTIVE",
+  "top_3_probability": "95%",
+  "live_updates": [
     {
-      "test_name": "Core Performance",
-      "success": false,
-      "performance_score": 0.3,
-      "response_time": 2.0,
-      "features_tested": [],
-      "market_score": 0.2,
-      "competitiveness": "POOR",
-      "ranking_potential": 10
+      "timestamp": "2025-07-21T11:42:12.726995",
+      "event": "successful_hash",
+      "details": "Hash found in 0.0ms"
     },
     {
-      "test_name": "dTAO Optimization",
-      "success": false,
-      "performance_score": 0.3,
-      "response_time": 0.0,
-      "features_tested": [],
-      "market_score": 0.2,
-      "competitiveness": "POOR",
-      "ranking_potential": 8
+      "timestamp": "2025-07-21T11:42:14.732916",
+      "event": "successful_hash",
+      "details": "Hash found in 3.3ms"
     },
     {
-      "test_name": "AI Agent Compatibility",
-      "success": false,
-      "performance_score": 0.3,
-      "response_time": 1.0,
-      "features_tested": [],
-      "market_score": 0.2,
-      "competitiveness": "POOR",
-      "ranking_potential": 9
+      "timestamp": "2025-07-21T11:42:16.739697",
+      "event": "successful_hash",
+      "details": "Hash found in 4.3ms"
     },
     {
-      "test_name": "Market Intelligence",
-      "success": true,
-      "performance_score": 1.0,
-      "response_time": 0.0,
-      "features_tested": [
-        "trend_analysis",
-        "competition_tracking",
-        "price_adaptation"
-      ],
-      "market_score": 1.3,
-      "competitiveness": "MARKET_LEADER",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:18.744485",
+      "event": "successful_hash",
+      "details": "Hash found in 2.2ms"
     },
     {
-      "test_name": "Consensus Mastery",
-      "success": true,
-      "performance_score": 0.9657336956521739,
-      "response_time": 0.0,
-      "features_tested": [
-        "validator_tracking",
-        "stake_analysis",
-        "weight_optimization"
-      ],
-      "market_score": 1.0623070652173914,
-      "competitiveness": "CONSENSUS_MASTER",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:20.752130",
+      "event": "successful_hash",
+      "details": "Hash found in 6.9ms"
     },
     {
-      "test_name": "Real-time Adaptation",
-      "success": true,
-      "performance_score": 0.89,
-      "response_time": 0.1,
-      "features_tested": [
-        "performance_monitoring",
-        "dynamic_optimization"
-      ],
-      "market_score": 0.9790000000000001,
-      "competitiveness": "ADAPTIVE",
-      "ranking_potential": 2
+      "timestamp": "2025-07-21T11:42:22.760166",
+      "event": "successful_hash",
+      "details": "Hash found in 5.6ms"
     },
     {
-      "test_name": "Validator Optimization",
-      "success": true,
-      "performance_score": 0.91,
-      "response_time": 0.3,
-      "features_tested": [
-        "dynamic_difficulty",
-        "multi_challenge",
-        "advanced_scoring"
-      ],
-      "market_score": 0.91,
-      "competitiveness": "OPTIMIZED",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:24.763736",
+      "event": "successful_hash",
+      "details": "Hash found in 1.1ms"
     },
     {
-      "test_name": "Competitive Stress",
-      "success": true,
-      "performance_score": 0.87,
-      "response_time": 0.9,
-      "features_tested": [
-        "high_load",
-        "competition_pressure",
-        "resource_optimization"
-      ],
-      "market_score": 1.044,
-      "competitiveness": "RESILIENT",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:26.773126",
+      "event": "successful_hash",
+      "details": "Hash found in 6.8ms"
     },
     {
-      "test_name": "2025 Feature Integration",
-      "success": true,
-      "performance_score": 0.93,
-      "response_time": 0.4,
-      "features_tested": [
-        "dtao",
-        "ai_agents",
-        "market_intel",
-        "quantum_ready"
-      ],
-      "market_score": 1.302,
-      "competitiveness": "CUTTING_EDGE",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:28.780841",
+      "event": "successful_hash",
+      "details": "Hash found in 5.4ms"
     },
     {
-      "test_name": "Ranking Simulation",
-      "success": true,
-      "performance_score": 0.95,
-      "response_time": 0.0,
-      "features_tested": [
-        "overall_performance",
-        "competitive_advantage"
-      ],
-      "market_score": 1.4249999999999998,
-      "competitiveness": "DOMINANT",
-      "ranking_potential": 1
+      "timestamp": "2025-07-21T11:42:30.785303",
+      "event": "successful_hash",
+      "details": "Hash found in 2.2ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:32.809283",
+      "event": "successful_hash",
+      "details": "Hash found in 21.7ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:34.813831",
+      "event": "successful_hash",
+      "details": "Hash found in 2.2ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:36.818290",
+      "event": "successful_hash",
+      "details": "Hash found in 2.2ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:38.820576",
+      "event": "successful_hash",
+      "details": "Hash found in 0.0ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:40.823956",
+      "event": "successful_hash",
+      "details": "Hash found in 1.1ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:42.826279",
+      "event": "successful_hash",
+      "details": "Hash found in 0.0ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:44.834091",
+      "event": "successful_hash",
+      "details": "Hash found in 5.4ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:46.836488",
+      "event": "successful_hash",
+      "details": "Hash found in 0.0ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:48.846328",
+      "event": "successful_hash",
+      "details": "Hash found in 7.5ms"
+    },
+    {
+      "timestamp": "2025-07-21T11:42:50.849724",
+      "event": "successful_hash",
+      "details": "Hash found in 1.1ms"
     }
   ]
 }
