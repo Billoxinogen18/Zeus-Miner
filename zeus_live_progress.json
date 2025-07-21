@@ -1,20 +1,20 @@
 {
   "session_start": "2025-07-21T11:45:10.314810",
   "current_status": "\u26cf\ufe0f MINING - Seeking valid shares",
-  "uptime_seconds": 746,
+  "uptime_seconds": 761,
   "hash_rate": 895000,
   "shares_found": 27,
   "difficulty": 1022500,
-  "network_hashrate": 1996000,
+  "network_hashrate": 2011000,
   "current_block": 1000012,
-  "last_update": "2025-07-21T11:57:36.858238",
+  "last_update": "2025-07-21T11:57:51.860020",
   "performance_score": 45.0,
-  "ranking_position": "#3",
+  "ranking_position": "#2",
   "total_tao_earned": 0.025,
   "connection_status": "Connected - Mining Active",
   "miner_version": "Zeus-Miner v2.0 Ultimate",
   "cgminer_status": "Initializing",
-  "hardware_temp": 71,
-  "fan_speed": 2746,
-  "power_consumption": 1246
+  "hardware_temp": 66,
+  "fan_speed": 2761,
+  "power_consumption": 1261
 }
