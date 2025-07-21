@@ -1,0 +1,23 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "dockerfile",
+    "dockerfilePath": "Dockerfile"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "sleepApplication": false,
+    "restartPolicyType": "always"
+  },
+  "environments": {
+    "production": {
+      "variables": {
+        "PYTHONPATH": "/app",
+        "BITTENSOR_WALLET_NAME": "zeus_miner",
+        "BITTENSOR_HOTKEY": "default",
+        "NETUID": "17",
+        "LOGGING_LEVEL": "INFO"
+      }
+    }
+  }
+}

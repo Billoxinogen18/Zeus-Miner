@@ -1,67 +1,44 @@
-# Use Ubuntu base image for better cgminer compatibility
-FROM ubuntu:22.04
-
-# Set environment variables
-ENV DEBIAN_FRONTEND=noninteractive
-ENV PYTHONUNBUFFERED=1
-
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    python3.11 \
-    python3.11-dev \
-    python3.11-venv \
-    python3-pip \
-    git \
-    build-essential \
-    automake \
-    autoconf \
-    pkg-config \
-    libtool \
-    libcurl4-openssl-dev \
-    libusb-1.0-0-dev \
-    libjansson-dev \
-    libncurses5-dev \
-    curl \
-    htop \
-    nano \
-    && rm -rf /var/lib/apt/lists/*
-
-# Create Python symlinks
-RUN ln -sf /usr/bin/python3.11 /usr/bin/python3 && \
-    ln -sf /usr/bin/python3.11 /usr/bin/python
+FROM python:3.11-slim
 
 # Set working directory
 WORKDIR /app
 
-# Copy requirements first for better Docker layer caching
-COPY requirements.txt /app/
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Python dependencies
-RUN python3 -m pip install --no-cache-dir --upgrade pip && \
-    python3 -m pip install --no-cache-dir -r requirements.txt
+# Copy requirements and install Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir bittensor
 
-# Copy project files
-COPY . /app/
+# Copy the entire Zeus-Miner codebase
+COPY . .
 
-# Build cgminer_zeus from vendored source
-RUN chmod +x build_cgminer.sh && ./build_cgminer.sh
+# Create wallet directory
+RUN mkdir -p /root/.bittensor/wallets/zeus_miner/hotkeys
 
-# Create user for mining (security best practice)
-RUN useradd -m -s /bin/bash miner && \
-    chown -R miner:miner /app
+# Copy wallet files if they exist
+COPY zeus_wallet_REAL.json /app/
 
-# Expose API port for cgminer
-EXPOSE 4028
+# Make scripts executable
+RUN chmod +x zeus_live_performance_monitor.py
 
-# Add health check
+# Expose ports for miner API and web dashboard
+EXPOSE 8080 8091
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV BITTENSOR_WALLET_NAME=zeus_miner
+ENV BITTENSOR_HOTKEY=default
+ENV NETUID=17
+
+# Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python3 -c "from utils.cgminer_api import CGMinerAPI; api = CGMinerAPI(); print('OK' if api.is_connected() else exit(1))" || exit 1
+    CMD python3 -c "import json; data=json.load(open('zeus_live_progress.json')); exit(0 if data['connection_status'] == 'Connected - Mining Active' else 1)" || exit 1
 
-# Switch to mining user
-USER miner
-
-# Set optimal environment for mining
-ENV CGMINER_OPTS="--api-listen --api-allow W:127.0.0.1 --queue 2 --scan-time 15"
-
-# Default command - can be overridden
-CMD ["python3", "neurons/miner.py"] 
+# Start the Zeus-Miner with live monitoring and web dashboard
+CMD ["sh", "-c", "python3 zeus_live_performance_monitor.py & python3 web_monitor.py & python3 -m neurons.miner --logging.info --netuid 17 --wallet.name zeus_miner --wallet.hotkey default; wait"] 
