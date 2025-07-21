@@ -1,0 +1,20 @@
+{
+  "wallet_name": "zeus_miner",
+  "hotkey_name": "default",
+  "created_timestamp": "2025-07-21T11:46:07Z",
+  
+  "coldkey": {
+    "address": "5FCofUHJjRPf4Dv7vnkhm7hSCrjUbBr16GttNxqDbgFzDTJ6",
+    "mnemonic": "stadium swing task cement jar lens shallow detect climb fetch tornado bubble"
+  },
+  
+  "hotkey": {
+    "address": "5EcS5JsxhFDNV1VQpHek9xzhpYpy7fHqroviuaDs3Y7t3LXf", 
+    "mnemonic": "pig cube piece lizard ask tobacco deny draw ivory ethics unknown hurdle"
+  },
+  
+  "network": "finney",
+  "netuid": 17,
+  
+  "SECURITY_WARNING": "STORE THESE MNEMONICS SAFELY OFFLINE! Anyone with these can access your TAO tokens!"
+}
